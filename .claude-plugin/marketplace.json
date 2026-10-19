@@ -1,0 +1,13 @@
+{
+  "name": "cc-timestamps",
+  "description": "Timestamps for every Claude Code transcript row",
+  "owner": {
+    "name": "katosh"
+  },
+  "plugins": [
+    {
+      "name": "timestamps",
+      "source": "./"
+    }
+  ]
+}

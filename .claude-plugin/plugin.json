@@ -1,1 +1,7 @@
-{ "name": "timestamps", "version": "0.1.0", "description": "Prefixes each transcript message and tool call with its local time and the time since the previous one" }
+{
+  "name": "timestamps",
+  "version": "0.1.0",
+  "description": "Prefixes each transcript message and tool call with its local time and the time since the previous one",
+  "author": { "name": "katosh" },
+  "repository": "https://github.com/katosh/cc-timestamps"
+}
