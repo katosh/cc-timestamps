@@ -1,7 +1,22 @@
 {
   "name": "timestamps",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Prefixes each transcript message and tool call with its local time and the time since the previous one",
-  "author": { "name": "katosh" },
-  "repository": "https://github.com/katosh/cc-timestamps"
+  "author": {
+    "name": "katosh"
+  },
+  "repository": "https://github.com/katosh/cc-timestamps",
+  "userConfig": {
+    "layout": {
+      "type": "string",
+      "title": "Stamp layout",
+      "description": "spacer: stamp painted into the blank line above each row, no width or height cost (default). line: stamp on an extra line above each row. gutter: the old 16 column left column, which wraps wide tables.",
+      "options": [
+        "spacer",
+        "line",
+        "gutter"
+      ],
+      "default": "spacer"
+    }
+  }
 }
